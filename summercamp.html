@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Camp Website</title>
+  <link rel="stylesheet" href="camp.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Futura&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-family: 'Futura', sans-serif;">Summer Adventure Camp</h1>
+    <p>Experience the thrill of a lifetime!</p>
+  </header>
+
+  <nav>
+    <a href="#key-info">Key Information</a>
+    <a href="#program-overview">Program Overview</a>
+    <a href="#registration">Registration</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#media-gallery">Media Gallery</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="banner">
+      <h1>Welcome to Summer Adventure Camp!</h1>
+      <p>Unforgettable memories and endless fun await.</p>
+    </section>
+
+    <section id="key-info">
+      <h2>Key Information</h2>
+      <p>
+        Our summer camp is open to children aged 7-14. It will be held at the beautiful XYZ Nature Resort, surrounded by stunning natural landscapes.
+      </p>
+      <ul>
+        <li>Duration: 2 weeks</li>
+        <li>Activities: Hiking, swimming, arts and crafts, team-building, and more</li>
+        <li>Dates: July 15 - July 30, 2023</li>
+        <li>Price: $500 per child</li>
+      </ul>
+    </section>
+
+    <section id="program-overview">
+      <h2>Program Overview</h2>
+      <p>
+        Our summer camp offers a diverse range of activities that provide a perfect balance of fun, education, and personal growth. Some highlights include:
+      </p>
+      <ul>
+        <li>Morning hikes exploring the surrounding nature</li>
+        <li>Swimming lessons and water sports in our private lake</li>
+        <li>Arts and crafts workshops to ignite creativity</li>
+        <li>Team-building games and challenges</li>
+        <li>Campfire nights with storytelling and s'mores</li>
+        <li>Special theme days and exciting surprise events</li>
+      </ul>
+    </section>
+
+    <section id="registration">
+      <h2>Registration</h2>
+      <p>Secure your child's spot by completing the registration form below:</p>
+      <form action="register.php" method="POST"
+        <label for="child-name">Child's Name:</label>
+        <input type="text" id="child-name" name="child-name" required>
+        
+        <label for="child-age">Child's Age:</label>
+        <input type="number" id="child-age" name="child-age" required>
+
+        <label for="parent-name">Parent's Name:</label>
+        <input type="text" id="parent-name" name="parent-name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button type="submit">Register</button>
+      </form>
+
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <blockquote>
+          "My kids had the time of their lives at Summer Adventure Camp. They couldn't stop talking about the exciting activities and the friends they made."
+        </blockquote>
+        <cite>- Jane Doe, Parent</cite>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          "The camp counselors were amazing and made the experience unforgettable. I highly recommend this camp to any parent looking for a fun and safe environment for their children."
+        </blockquote>
+        <cite>- John Smith, Parent</cite>
+      </div>
+    </section>
+
+    <section id="media-gallery">
+      <h2>Media Gallery</h2>
+      <!-- Photo or video gallery -->
+    </section>
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <dl>
+        <dt>Can I visit my child during the camp?</dt>
+        <dd>For security and safety reasons, parents are not allowed to visit during the camp. However, we provide regular updates and photos to keep you informed.</dd>
+
+        <dt>What should my child bring to the camp?</dt>
+        <dd>Children should bring comfortable clothing, swimwear, sunscreen, a water bottle, and personal toiletries. A detailed packing list will be provided upon registration.</dd>
+
+        <dt>Is financial aid available?</dt>
+        <dd>We offer a limited number of scholarships and financial aid options. Please contact our team for more information.</dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or need further information, feel free to reach out to our team. We're here to assist you!
+      </p>
+      <p>Contact: info@summeradventurecamp.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Summer Adventure Camp. All rights reserved.</p>
+  </footer>
+
+  <script src="camp.js"></script>
+</body>
+</html>

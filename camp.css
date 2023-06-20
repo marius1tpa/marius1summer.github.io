@@ -1,0 +1,109 @@
+body {
+  font-family: 'Futura', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Futura', sans-serif;
+}
+
+p, ul, ol, dl, form, blockquote, cite {
+  font-family: 'Futura', sans-serif;
+}
+/* CSS styles for the website */
+
+/* Header styles */
+header {
+  background-color: #fff; /* Set header background color */
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #ff6600; /* Set navigation background color */
+  padding: 10px;
+}
+
+nav a {
+  color: #fff; /* Set link text color */
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+nav a:hover {
+  background-color: #ff8c00; /* Change link background color on hover */
+}
+
+/* Banner styles */
+#banner {
+  background-color: #ff8c00; /* Set banner background color */
+  color: #fff; /* Set banner text color */
+  text-align: center;
+  padding: 100px;
+}
+
+#banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 24px;
+}
+
+/* Key information styles */
+#key-info {
+  background-color: #fff; /* Set key information background color */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Program overview styles */
+#program-overview {
+  background-color: #f8f8f8; /* Set program overview background color */
+  padding: 50px;
+}
+
+/* Registration styles */
+#registration {
+  background-color: #fff; /* Set registration background color */
+  padding: 50px;
+}
+
+/* Testimonials styles */
+#testimonials {
+  background-color: #f8f8f8; /* Set testimonials background color */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Media gallery styles */
+#media-gallery {
+  background-color: #fff; /* Set media gallery background color */
+  padding: 50px;
+}
+
+/* FAQ styles */
+#faq {
+  background-color: #f8f8f8; /* Set FAQ background color */
+  padding: 50px;
+}
+
+/* Contact styles */
+#contact {
+  background-color: #fff; /* Set contact background color */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #ff6600; /* Set footer background color */
+  color: #fff; /* Set footer text color */
+  padding: 20px;
+  text-align: center;
+}
